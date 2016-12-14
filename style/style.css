@@ -1,0 +1,463 @@
+.container {
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('./img/viorelGrandCanyon.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  text-align: center;
+  height: 650px;
+  width: 100%;
+}
+.header {
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.topHeader {
+  height: 100px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#linkedin {
+  padding-left: 20px;
+  height: 45px;
+  width: 45px;
+}
+
+#github {
+  margin-left: 20px;
+  height: 45px;
+  width: 45px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+}
+
+.links_ul {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 363px;
+  padding: 20px 0px 15px 0px;
+  list-style-type: none;
+}
+
+.links_ul2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 0px 15px 0px;
+  list-style-type: none;
+}
+
+#email {
+  font-size: 30px;
+  color: white;
+}
+
+#phone {
+  padding-left: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.links_li {
+  display: inline;
+}
+
+.title {
+  color: rgba(255, 255, 255, 1);;
+  font-size: 120px
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+.aboutMe {
+  padding: 0 auto;
+  background-image: url('./img/white_background.jpg');
+  perspective: 1px;
+  background-attachment: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  height: 800px;
+}
+
+.aboutMeOverlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#aboutMe_title {
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+  font-size: 45px;
+  color: black;
+}
+
+.aboutMe_profile_accomplishments {
+  display: flex;
+  justify-content: space-around;
+}
+.aboutMe_pic_p {
+  width: 40vw;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.aboutMe_profile_pic {
+  width: 290px;
+  height: 190px;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.accomplishment_box {
+}
+.skillbox {
+  text-align: center;
+}
+
+#skillTitle {
+  font-size: 50px;
+}
+.skill_ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skill_li {
+  display: inline;
+}
+
+.skillImage {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#css3{
+  width: 72px;
+  height: 100px;
+}
+#html5{
+
+}
+#react{
+  width: 86px;
+  height: 100px;
+}
+#javascript{
+
+}
+#jquery{
+
+}
+#ruby{
+
+}
+#rails{
+  width: 78px;
+  height: 100px;
+}
+#nodejs{
+  width: 163px;
+  height: 100px;
+}
+#express{
+  width: 300px;
+  height: 100px;
+}
+#postgresql{
+
+}
+#photoshop {
+
+}
+
+.projects {
+  background-image: url('./img/white_background4.jpg');
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#all_projects {
+  margin: 0 auto;
+}
+
+.projects_panel {
+  width: 300px;
+  height: 350px;
+  margin: 0 10px 0 10px;
+  background-color: rgba(25, 25, 25, 0.5);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+#polichange_title {
+  padding-top: 5px;
+  text-align: center;
+}
+
+#polichange_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+#polichange_image {
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+#poliChangeLogo {
+  width:128px;
+  height: 128px;
+  text-align: center;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+}
+
+#poliChangeLogo {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 70px;
+  color: rgb(10, 37, 32);
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 2px 2px 1px rgba(255, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#polichange_p {
+  padding: 0px 5px 0px 5px;
+}
+
+.footer {
+  background-color: black;
+  height: 50px;
+}
+
+#footer_linkedin {
+  padding-left: 7px;
+  height: 15px;
+  width: 15px;
+}
+
+#footer_github {
+  margin-left: 7px;
+  height: 15px;
+  width: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 3px;
+}
+
+.footer_ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer_email {
+  font-size: 20px;
+  color: white;
+}
+
+#footer_phone {
+  padding-left: 7px;
+  font-size: 20px;
+  color: white;
+}
+
+.footer_li {
+  display: inline;
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutMe {
+    padding: 0 auto;
+    background-image: url('./img/white_background.jpg');
+    perspective: 1px;
+    background-attachment: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    height: 850px;
+  }
+
+  .aboutMe_profile_accomplishments {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .aboutMe {
+    padding: 0 auto;
+    background-image: url('./img/white_background.jpg');
+    perspective: 1px;
+    background-attachment: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    height: 900px;
+  }
+
+  .aboutMe_profile_accomplishments {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+
+  header {
+    background-image: url('./img/viorelGrandCanyon.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    text-align: center;
+    height: 760px;
+    width: 100%;
+  }
+  .header {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .topHeader {
+    height: 100px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  #linkedin {
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    height: 45px;
+    width: 45px;
+  }
+
+  #github {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 45px;
+    width: 45px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+  }
+
+  .links_ul {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 395px;
+    padding: 20px 0px 15px 0px;
+    list-style-type: none;
+  }
+
+  .links_ul2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0px 15px 0px;
+    list-style-type: none;
+  }
+  #email {
+    font-size: 30px;
+    color: white;
+  }
+
+  #phone {
+    padding-left: 20px;
+    font-size: 30px;
+    color: white;
+  }
+
+  .links_li {
+    padding-top: 5px;
+    display: block;
+  }
+
+  .links_li2 {
+    display: inline;
+  }
+
+  .title {
+    color: rgba(255, 255, 255, 1);;
+    font-size: 120px
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .aboutMe {
+    padding: 0 auto;
+    background-image: url('./img/white_background.jpg');
+    perspective: 1px;
+    background-attachment: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    height: 1150px;
+  }
+
+  .aboutMe_profile_accomplishments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

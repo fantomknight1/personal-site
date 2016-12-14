@@ -3,6 +3,8 @@ import { Route, IndexRoute } from 'react-router';
 
 import App from './components/app';
 import PostsIndex from './components/posts_index';
+import AboutMe from './components/about_me';
+import Projects from './components/projects';
 
 export default (
   <Route path="/" component={ App } >
