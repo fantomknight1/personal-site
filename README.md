@@ -237,3 +237,21 @@ FROM index.html:
 	}
 
 	export default AboutMe;
+
+
+
+
+
+
+
+	<div className="accomplishment_box">
+		<h3>Accomplishments</h3>
+		<ul className="accomplishments">
+			<li>Best Buy Achiever- Top 2% in the company</li>
+			<li>1000 Dollar Club- Consistently gross over $1,000 an hour</li>
+			<li>150% Club- Achieve 150% Department Target</li>
+			<li>Million Dollar Club- Gross over 1M Dollars in a year</li>
+			<li>3rd Quarter MVP</li>
+			<li>4th Quarter MVP</li>
+		</ul>
+	</div>
